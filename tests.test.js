@@ -30,5 +30,5 @@ test('object has "average", "min", "max", and "legth" properties', () => {
   expect(object.average).toBeDefined();
   expect(object.min).toBeDefined();
   expect(object.max).toBeDefined();
-  expect(object.lenght).toBeDefined();
+  expect(object.length).toBeDefined();
 })
