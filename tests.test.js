@@ -1,5 +1,6 @@
-const capitalize = require("./src/capitalize");
-const reverseString = require("./src/reverse");
+const capitalize = require('./src/capitalize');
+const reverseString = require('./src/reverse');
+const calculator = require('./src/calculator')
 
 test('capitalizes the first letter', () => {
   expect(capitalize('hello')).toMatch('Hello');
