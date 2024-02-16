@@ -19,5 +19,6 @@ test('correctly performs a calculation', () => {
 })
 
 test('shifts each character by the shift factor', () => {
-  expect(caesar('hello', 3)).toMatch('khoor');
+  expect(caesar('hello', 3)).toMatch('KHOOR');
+  expect(caesar('incapaz', 7)).toMatch('PUJHWHG');
 })
