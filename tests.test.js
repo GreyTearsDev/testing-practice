@@ -5,5 +5,5 @@ test('capitalizes the first letter', () => {
 })
 
 test('reverse a string', () => {
-  expect(reverseString('hello').toMatch('olleh'));
+  expect(reverseString('hello')).toMatch('olleh');
 })
